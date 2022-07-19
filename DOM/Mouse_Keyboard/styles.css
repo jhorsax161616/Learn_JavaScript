@@ -1,0 +1,18 @@
+.button {
+    font-size: 22px;
+    display: block;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+}
+
+.green {
+    background-color: green;
+}
+
+.aqua {
+    background-color: aqua;
+}
