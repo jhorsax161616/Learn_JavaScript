@@ -1,3 +1,6 @@
+// Un callback es una función que se ejecuta a través de otra función
+// Ojo: Los callbacks no son asincronos
+
 /* const getUser = (id, cb) => {
     const user = {
         name: 'Sax',
@@ -46,7 +49,7 @@ const emails = [
 const getUserC = (id, cb) => {
     const user = users.find(user => user.id == id)
 
-    if (!user) cb(`Not exist a user with id ${id}`)
+    if (!user) cb(`Doesn't exist a user with id ${id}`)
     else cb(null, user)
 }
 
